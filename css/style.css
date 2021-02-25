@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/******Navbar********/
+
+.nav{
+    width: 95%;
+    margin: 0 auto;
+}
+.logo a{
+    position: absolute;
+    top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: 550;
+    font-family: 'Goldman', cursive;
+}
+.logo a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*************Burger Menu****************/
+#menu-toggle{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.3);
+    z-index: 100;
+}
+
+.change #menu-toggle{
+    display: block;
+}
+.menu-content {
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right:-50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    padding-left: 60px;
+    padding-top: 100px;
+  }
+
+  .change .menu-content{
+      right: 0;
+  }
+
+  .hamburger-menu {
+    width: 35px;
+    height: 18px;
+    position: fixed;
+    top: 40px;
+    right: 45px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .line {
+    width: 80%;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.8s;
+  }
+  
+  .change .line-2 {
+    transform: rotate(-45deg) translate(2px, -2px);
+  }
+
+  .change .line-1 {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  
+  .ham-social p{
+      opacity: 0.5;
+      padding-left: 32px;
+      padding-bottom: 10px;
+  }
+  .nav-menu p{
+    opacity: 0.5;
+    padding-left: 53px;
+  }
+
+  .nav-item, .social-item, .mobile-item {
+    list-style: none;
+  }
+  .nav-link {
+    text-decoration: none;
+    font-size: 60px;
+    color: #000;
+    line-height: 70px;
+    letter-spacing: -3px;
+  }
+  .link4{
+      border-bottom: 1px solid #000;
+      padding-bottom: 10px;
+      width: 43%;
+  }
+  .social-item{
+      padding: 10px 0;
+  }
+  .social-link, .mobile-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.nav-mobile{
+    margin-top: 30px;
+}
+.nav-mobile .mobile1{
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.nav-link:hover, .social-link:hover, .mobile-link:hover{
+      color: #000;
+  }
+
+/************HERO Section****************/
+
+.home-hero{
+    margin: 200px 0;
+}
+.home-hero h1{
+    font-family: 'Nixie One', cursive;
+    font-size: 55px;
+}
+.hero-foot h2{
+    width: 70%;
+    margin-top: 200px;
+    font-weight: 400;
+}
+ .hero-links {
+    position: relative;
+    display: flex; }
+
+.hero-video1 video{
+    z-index: -1;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 260px;
+    border-radius: 60%;
+    position: absolute;
+}
+
+
+ .hero-link a {
+      z-index: 1;
+      padding: 12px 0;
+      padding-right: 30px;
+      display: inline-block;
+      overflow: hidden;
+      text-decoration: none;
+      color: transparent;
+      transition: color 0.3s;
+      -webkit-text-stroke: 1px #000;; }
+
+ .hero-link a:hover {
+        color: black;
+        -webkit-text-stroke: 1px transparent; }
+
+ .hero-link a span {
+        font-weight: 700;
+        text-shadow: none;
+        font-size: 4.9vw; }
+        
+ .hero-link:first-child a {
+      padding-left: 0; }
+
+ .hero-link:last-child a {
+      padding-right: 0;}
+
+/*************MAIN SECTION****************/
+    .maintitle{
+        margin: 300px 0;
+    }
+    .maintitle h1{
+        font-size: 60px;
+        font-weight: 400;
+    }
+
+    .maintitle p{ 
+        line-height: 50px;
+        font-size: 60px;
+        display: flex;
+        color: transparent;
+        transition: color 0.3s, -webkit-text-stroke 0.3s;
+        -webkit-text-stroke: 1px #000; 
+    }
+
+    .main-card{
+        margin-bottom: 30px;
+    }
+    .card-text{
+       padding-top: 20%;
+    }
+
+    .card-text h2{
+        font-size: 35px;
+        font-weight: 400;
+        padding: 20px 0;
+    }
+
+    .card-image img{
+        width: 68%;
+        height: 600px;
+        border-radius: 20px;
+        float: right;
+    }
+    
+
+/*************FLOW SECTION****************/
+.FlowWord{
+    margin: 200px 0;
+}
+
+.vebsayt, .design, .brendinq, .marketing{
+    transform: translate3d(-0.3624%, 0px, 0px);
+    will-change: auto;
+    display: flex;
+}
+
+.vebsayt1, .design1, .brendinq1, .marketing1 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 400;
+    padding-right: 50px;
+    width: 50%;
+
+}
+
+.vebsayt2, .design2, .brendinq2, .marketing2 {
+    width: 50%;
+    color: transparent;
+    text-shadow: none;
+    font-size: 60px;
+    -webkit-text-stroke: 1px rgba(0,0,0,.2);
+    padding-right: 50px;
+    
+}
+/*************NEWS SECTION****************/
+
+.News{
+    margin-bottom: 100px;
+}
+
+.NewsLeft h1 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.NewsRight a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.NewsRight a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: #000; 
+}
+
+.News1, .News2, .News3{
+    margin-bottom: 70px;
+}
+
+.News1 p, .News2 p, .News3 p{
+    color: gray;
+    margin-top: 15px;
+}
+
+/*************FOOTER SECTION****************/
+
+footer{
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+}
+
+.foot-contact{
+    padding-top: 200px;
+}
+
+.foot-title h1{
+    font-size: 74px;
+    font-weight: 500;
+}
+.foot-title p{
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 50px;
+}
+.addres-mail{
+    font-size: 24px;
+}
+
+.addres{
+    color: gray;
+}
+
+.foot-social a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.foot-social a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+/*************CHAT SECTION****************/
+
+.chat{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #000;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 14px;
+    transition: 0.3s;
+}
+.chat a{
+    color: #fff;
+}
+
+.chat a:hover{
+    color: #fff;
+}
+
+.chat:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    padding-top: 19px;
+}
+
+
+/******Cursor********/
+.cursor{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    transition: 0.2s;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    display: none;
+
+}
+
+footer:hover ~ .cursor{
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

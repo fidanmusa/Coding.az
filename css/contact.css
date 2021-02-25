@@ -1,0 +1,103 @@
+.contact-main{
+    width: 80%;
+    margin: 200px auto;
+    padding: 0 50px;
+}
+
+.contact-title h1{
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+.contact-title img{
+    position: absolute;
+}
+.orders{
+    margin-top: 130px;
+}
+.orders h1{
+    margin-bottom: 50px;
+    color: lightgrey;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+.orders div{
+    display: inline-block;
+    height: 70px;
+    border-radius: 60px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid rgb(235, 232, 232);
+    background-color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.orders div:hover{
+    transition: 0.6s;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+}
+
+.request{
+    margin-bottom: 100px;
+}
+
+.request input{
+   border: none;
+   border-bottom: 3px solid lightgray;
+   width: 100%;
+   border-radius: 0;
+   outline: none;
+   background-color: transparent;
+   font-size: 35px;
+   padding: 20px 0;
+   margin: 50px 0;
+   font-weight: 100;
+}
+
+.request input:hover{
+    border: none;
+    border-bottom: 3px solid gray;
+    transition: 0.7s;
+}
+
+.request .file{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.request .file:hover{
+    border-bottom: none;
+}
+
+.request button{
+     font-size: 24px;
+     font-weight: 300;
+     outline: none;
+     border: none;
+     background-color: transparent;
+     border-bottom: 3px solid gray;
+     padding-bottom: 5px;
+}
+
+.request button:hover{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid gray;
+}
+
+
+
+
+

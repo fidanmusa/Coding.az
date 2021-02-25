@@ -1,0 +1,46 @@
+.main{
+    margin: 200px 200px;
+}
+
+.main-title{
+    margin-bottom: 200px;
+}
+
+.main-title h1{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    color: #000;
+}
+
+.main-card img{
+    width: 98%;
+    height: 100vh;
+    cursor: pointer;
+}
+.main-card h4{
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+
+.main-card p{
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+
+.main-card2 img{
+    margin-top: 200px;         
+}
+
+.card-img{
+    width: 98%;
+    height: 100vh;
+}
